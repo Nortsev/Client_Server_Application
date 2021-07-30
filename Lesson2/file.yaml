@@ -1,0 +1,9 @@
+Item:
+- list
+- test
+- yaml
+quantity: 2
+third_key:
+  inner_key1: 10Ѱ
+  inner_key2: 15※
+  inner_key3: 7€
