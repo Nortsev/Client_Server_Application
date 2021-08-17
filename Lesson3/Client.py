@@ -1,4 +1,4 @@
-import  time, pickle
+import time, pickle
 from socket import AF_INET, SOCK_STREAM, socket
 import config
 import argparse
