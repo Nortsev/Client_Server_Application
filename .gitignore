@@ -3,3 +3,5 @@ venv
 Lesson2/.DS_Store
 .DS_Store
 Lesson5/__pycache__/
+Lesson5/logs/client_log.log
+Lesson5/logs/server_log.log

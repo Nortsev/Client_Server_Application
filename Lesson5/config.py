@@ -26,7 +26,8 @@ GONE = 410  # (gone) — адресат существует, но недост�
 INTERNAL_ERROR = 500  # ошибка сервера.
 UNKNOWN_ERROR = 999  # Нестандартная ошибка
 
-StandartServerCodes = BASIC_NOTICE, OK, ACCEPTED, WRONG_REQUEST, SERVER_ERROR, IMPORTANT_NOTICE, CREATED, NO_AUTH, WRONG_PASSW, BANNED, NOT_FOUND, GONE, INTERNAL_ERROR
+StandartServerCodes = BASIC_NOTICE, OK, ACCEPTED, WRONG_REQUEST, SERVER_ERROR, IMPORTANT_NOTICE, CREATED, NO_AUTH,\
+                      WRONG_PASSW, BANNED, NOT_FOUND, GONE, INTERNAL_ERROR
 
 
 class UnknownCode(Exception):
@@ -35,3 +36,4 @@ class UnknownCode(Exception):
 
     def __str__(self):
         return f'Неизвестный код ответа {self.code}'
+
